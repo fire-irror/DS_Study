@@ -1,11 +1,13 @@
 #include <stdio.h>
 
+int fac(n) {
+	if (n == 1) return 1;
+
+	else return n * fac(n - 1);
+}
 int main() {
 	int n = 5;
-	int fac = 1, i;
-	for (int i = n; i >= 1; i--) {
-		fac *= i;
-	 }
-	printf("%d! = %d\n", n, fac);
+
+	printf("%d! = %d\n", n, fac(n));
 	return 0;
 }
