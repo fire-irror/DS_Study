@@ -7,7 +7,7 @@ int main() {
 
 	printf("수 5개를 입력하세요 : ");
 	for (int i = 0; i < sizeof(arr) / sizeof(int); i++) {
-		scanf("%d", &arr[i]);
+		scanf_s("%d", &arr[i]);
 	}
 	for (int j = 4; j < sizeof(arr) / sizeof(int); j--) {
 		printf("%d",arr[j]);
