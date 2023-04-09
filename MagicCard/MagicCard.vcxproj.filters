@@ -15,28 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="하노이타워.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr4.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr5.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr6.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="arr7.c">
+    <ClCompile Include="2차원배열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
