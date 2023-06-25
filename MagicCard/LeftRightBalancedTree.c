@@ -28,7 +28,7 @@ struct node* binaryTree(int a[], int left, int right) {
 	if (left <= right) {
 		mid = (left + right) / 2;
 		p = NEW;
-		p->data = a[mid];
+		p-> data = a[mid];
 		p->llink = binaryTree(a, left, mid - 1);
 		p->rlink = binaryTree(a, mid + 1, right);
 	}
